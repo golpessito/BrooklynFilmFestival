@@ -1,0 +1,44 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    background-color: white;
+    color:#555;
+    font-family: 'Lato', 'Arial';
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering:optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* ---- HEADERS ---- */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20;
+    font-size: 200%;
+    color: #555;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+/* ---- LINKS HEADERS ---- */
+
+.nav-item a:link,
+.nav-item a:visited{
+    color: #fff !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200 !important;
+    font-size: 90% !important;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+    color: #fff !important;
+    border-bottom: 2px solid #e67e33 !important;
+}
