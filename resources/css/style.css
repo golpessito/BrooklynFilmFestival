@@ -118,9 +118,27 @@ h1 {
 
 .carousel-item img {
     width: 100%;
-    opacity: 0.;
 }
 
+/* -------------------------------------------- */
+/* NEWS */
+/* -------------------------------------------- */
+
+.news img {
+    width: 100%;
+    height: 300px;
+}
+
+.featured-content-cta {
+    margin-top: 10px;
+    font-size: 80%;
+    color:red;
+}
+
+.featured-content-headline{
+    text-align: justify;
+    color:black;
+}
 
 /* -------------------------------------------- */
 /* PARAGRAPHS */
@@ -155,6 +173,26 @@ h1 {
     font-size: 80%;
     text-align: justify;
 }
+
+/* -------------------------------------------- */
+/* SCHEDULE */
+/* -------------------------------------------- */
+
+.schedule {
+    color:black;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+    font-size: 80%;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0 20px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+
 
 /* -------------------------------------------- */
 /* FOOTERS */
